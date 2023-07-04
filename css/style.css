@@ -1,0 +1,19 @@
+html {
+    overflow: hidden;
+}
+
+.has-background-img {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center 80%;
+    background-attachment: fixed;
+}
+
+.darkbox {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.dark-to-none {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
